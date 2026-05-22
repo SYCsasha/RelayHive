@@ -1,0 +1,5 @@
+"""Compatibility launcher for `uvicorn main:app --reload`."""
+
+from app.main import app
+
+__all__ = ["app"]
