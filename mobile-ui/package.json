@@ -1,0 +1,39 @@
+{
+  "name": "relayHive-mobile-ui",
+  "version": "1.0.0",
+  "description": "RelayHive Mobile UI Shell - 分布式 AI 任务操作系统移动端应用",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "echo \"No linter configured\""
+  },
+  "keywords": [
+    "RelayHive",
+    "AI",
+    "Task",
+    "Mobile",
+    "UI"
+  ],
+  "author": "SYCsasha",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "@vitejs/plugin-react": "^6.0.2",
+    "vite": "^8.0.14",
+    "vite-plugin-html": "^3.2.2"
+  }
+}
